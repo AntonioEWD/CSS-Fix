@@ -141,3 +141,20 @@ th {
 tr:hover {
     background-color: #f8fafc;
 }
+
+img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+@media (min-width: 768px) {
+    .grid-layout {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .header-card,
+    .table-card {
+        grid-column: 1 / -1;
+    }
+}
