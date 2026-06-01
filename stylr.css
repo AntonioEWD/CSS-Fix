@@ -74,3 +74,33 @@ nav a:hover {
     transform: translateY(-5px);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
 }
+
+h1,
+h3 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+.highlight-blue {
+    color: #3498db;
+    font-weight: bold;
+}
+
+.highlight-green {
+    color: #2ecc71;
+    font-weight: bold;
+}
+
+.quote-box {
+    border-left: 4px solid #3498db;
+    padding-left: 15px;
+    font-style: italic;
+    background: #f8fafc;
+    padding: 15px;
+    border-radius: 0 8px 8px 0;
+    margin: 20px 0;
+}
